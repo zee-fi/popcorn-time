@@ -1,0 +1,11 @@
+.Header h1 {
+    color: rgb(255, 170, 0);
+}
+
+.Header {
+    background-color: darkred;
+    padding: 1rem;
+    margin: 1rem;   
+    margin-bottom: 1rem;
+}
+
