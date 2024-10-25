@@ -24,15 +24,16 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 1.6em;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 button {
@@ -54,15 +55,27 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.card {
+  max-width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #666;
+  box-shadow: 5px 5px 10px -5px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0px;
+}
+
+.box {
+  outline: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
